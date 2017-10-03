@@ -41,15 +41,15 @@ The most important attributes for this exercise are:
  - **MAX** = Maximum temperature in Fahrenheit
  - **MIN** = Minimum temperature in Fahrenheit
 
-## Problem 1 - Basic statistics of the data
+## Problem 1 - Basic statistics of the data (5 points)
 
 In this problem your task is to explore the data [6153237444115dat.csv] by reading the data into Pandas
 and conduct following tasks / answer to following questions:
 
 - Read the data into a variable called `data`.
   - When reading the data, it is important that you tell to Pandas that no-data values are specified with varying number of \* characters.
-  - You can do this with parameter `na_values=['*', '**', '***', '****', '*****', '******']`
-- How many rows does the data have?
+  - You can do this by specifying a following parameter in the `read_csv()` -function: `na_values=['*', '**', '***', '****', '*****', '******']`
+- How many rows is there in the data?
 - What are the column names?
 - What are the datatypes of the columns?
 - What is the mean Fahrenheit temperature in the data? (`TEMP` column)
@@ -62,7 +62,7 @@ inside the script.
 - Upload the script to your GitHub repository for Exercise 5
 - Remember to comment well your code!
 
-## Problem 2 - Data manipulation
+## Problem 2 - Data manipulation (5 points)
 
 Similarly as in earlier exercises the temperatures in our data are represented in Fahrenheit, hence,
 you need to convert the temperatures into Celsius.
@@ -74,12 +74,12 @@ you need to convert the temperatures into Celsius.
  - Round the values in `Celsius` to have 0 decimals
  - Convert the `Celsius` values into integers
 
-You should write your codes into a `data_analysis.py` file.
+You can add your codes into a `data_exploration.py` file.
 
 - Upload the script to your GitHub repository for Exercise-5
 - Remember to comment well your code!
 
-## Problem 3 - Data selection
+## Problem 3 - Data selection (5 points)
 
 In this problem you should select specific columns from the data and divide the data into separate subsets for
 different stations.
@@ -91,7 +91,12 @@ different stations.
 - Save `rovaniemi` DataFrame into `Rovaniemi_temps_May_Aug_2017.csv` file (CSV format) (separated with `,`)
 - Upload your csv files into your GitHub repository for Exercise 5
 
-## Problem 4 - Data analysis
+You can add your codes into a `data_exploration.py` file.
+
+- Upload the script to your GitHub repository for Exercise-5
+- Remember to comment well your code!
+
+## Problem 4 - Data analysis (5 points)
 
 In this problem the aim is to understand how different the summer temperatures has been in Helsinki Kumpula and Rovaniemi.
 Using the data from Problem 3 in `kumpula` and `rovaniemi` DataFrames answer to following questions:
@@ -112,8 +117,13 @@ and assign them into variables `rovaniemi_may` and `kumpula_may`
 - Do similar procedure for June and assign those values into variables `rovaniemi_june` and `kumpula_june`
 - Using those new subsets print the mean, min and max temperatures for both places in May and June.
 
+You can add your codes into a `data_exploration.py` file.
+
+- Upload the script to your GitHub repository for Exercise-5
+- Remember to comment well your code!
+
 Interpreting the results after the data analysis is one of the most important steps in a process called knowledge discovery.
-Hence, use the information above to discuss shortly about following questions here
+Hence, use the information above to discuss shortly about following questions here (answer to this .md file)
 (justify your answers with the data analysis results):
 
 - Does there seem to be large difference in temperatures between the months?
