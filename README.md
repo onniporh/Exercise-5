@@ -136,7 +136,7 @@ Hence, use the information above to discuss shortly about following questions (j
 ## Problem 5 (optional) - Parse daily temperatures
 
 This optional task is for more advanced students (minimal guidance given).
-Our current dataset contains hourly temperatures.
+Our current dataset contains hourly temperatures (actually 3 measurements per hour).
 
 Your task here is to:
 
