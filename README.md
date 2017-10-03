@@ -126,11 +126,12 @@ You can add your codes into a `data_exploration.py` file.
 - Remember to comment well your code!
 
 Interpreting the results after the data analysis is one of the most important steps in a process called [knowledge discovery](http://researcher.ibm.com/researcher/view_group.php?id=144).
-Hence, use the information above to discuss shortly about following questions here (answer to this .md file)
-(justify your answers with the data analysis results):
+Hence, use the information above to discuss shortly about following questions (justify your answers with the data analysis results):
 
 - Does there seem to be large difference in temperatures between the months?
 - Is Rovaniemi much colder place than Kumpula?
+
+***Write your answers below here:***
 
 ## Problem 5 (optional) - Parse daily temperatures
 
@@ -145,5 +146,10 @@ Your task here is to:
 
 Find help from [Pandas Official documentation](https://pandas.pydata.org/pandas-docs/stable/) and using Google to find information
 about solving this issue. If you think you can handle this but don't know how to proceed, ask in Slack for tips.
+
+Write your codes into a `data_aggregation.py` file.
+
+- Upload the script to your GitHub repository for Exercise-5
+- Remember to comment well your code!
 
 
