@@ -14,7 +14,8 @@ After making your changes, you will need to upload your files to GitHub. The ans
 ## Data
 
 For the Exercise 5 we will use NOAA weather data obtained from https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND
-(file format was converted to CSV for convenience).
+(file format was converted to CSV for convenience). You should download the datafile into your own computer to do the
+data analysis on it.
 
 You can read the full description of our data from a [3505doc.txt] -file that
 contains the description for each attribute.
