@@ -5,7 +5,8 @@ to do some basic data analysis and data manipulations using **real data**. In th
 temperature data from Helsinki (in Southern Finland) and Rovaniemi (northest municipality in Finland)
 and to explore how their summers have differed in 2016.
 
-After making your changes, you will need to upload your files to GitHub. The answers to the questions in this week's exercise should be given by modifying the document in places where asked or at the end of this document in the section titled Answers.
+After making your changes, you will need to upload your files to GitHub.
+The answers to the questions in this week's exercise should be given by modifying the document in places where asked.
 
  - **Exercise 5 is due by the start of lecture on 11.10.**
  - Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L5/exercise-5-hints.html) if you're having trouble.
