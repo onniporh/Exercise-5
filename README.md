@@ -31,7 +31,7 @@ USAF,WBAN,YR--MODAHRMN,DIR,SPD,GUS,CLG,SKC,L,M,H,VSB,MW,MW,MW,MW,AW,AW,AW,AW,W,T
 028450,99999,201705010100,188,12,16,***,***,*,*,*,3.2,**,**,**,**,77,**,**,**,*,31,30,1009.1,*****,984.0,***,***,*****,*****,*****,*****,35
 ```
 
-**NOTICE**: the data includes \*\*\* characters that represent NoData values.
+**NOTICE**: the data includes \* characters that represent NoData values.
 
 The most important attributes for this exercise are:
 
@@ -45,11 +45,11 @@ The most important attributes for this exercise are:
 
 ## Problem 1 - Basic statistics of the data (5 points)
 
-In this problem your task is to explore the data [6153237444115dat.csv] by reading the data into Pandas
+In this problem your task is to download and explore the data from [6153237444115dat.csv](6153237444115dat.csv) by reading the data into Pandas
 and conduct following tasks / answer to following questions:
 
 - Read the data into a variable called `data`.
-  - When reading the data, it is important that you tell to Pandas that no-data values are specified with varying number of \* characters.
+  - **Important**: When reading the data, it is important that you tell to Pandas that no-data values are specified with varying number of \* characters.
   - You can do this by specifying a following parameter in the `read_csv()` -function: `na_values=['*', '**', '***', '****', '*****', '******']`
 - How many rows is there in the data?
 - What are the column names?
