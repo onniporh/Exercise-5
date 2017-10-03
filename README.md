@@ -50,7 +50,8 @@ and conduct following tasks / answer to following questions:
 
 - Read the data into a variable called `data`.
   - **Important**: When reading the data, it is important that you tell to Pandas that no-data values are specified with varying number of \* characters.
-  - You can do this by specifying a following parameter in the `read_csv()` -function: `na_values=['*', '**', '***', '****', '*****', '******']`
+  - You can do this by specifying a following parameter in the `read_csv()` -function:
+     - `na_values=['*', '**', '***', '****', '*****', '******']`
 - How many rows is there in the data?
 - What are the column names?
 - What are the datatypes of the columns?
