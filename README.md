@@ -2,7 +2,7 @@
 
 The exercise for this week is meant to help you to understand how to use [Pandas - Python Data Analysis Library](http://pandas.pydata.org/)
 to do some basic data analysis and data manipulations using **real data**. In this week's exercise you are asked to analyze
-temperature data from Helsinki (in Southern Finland) and Rovaniemi (northest municipality in Finland)
+temperature data from Helsinki (in Southern Finland) and Rovaniemi (city in northern Finland)
 and to explore how their summers have differed in 2016.
 
 After making your changes, you will need to upload your files to GitHub.
