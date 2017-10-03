@@ -18,7 +18,7 @@ For the Exercise 5 we will use NOAA weather data obtained from [here](https://ww
 (file format was converted to CSV for convenience). You should download the datafile into your own computer to do the
 data analysis on it.
 
-You can read the full description of our data from a [3505doc.txt] -file that
+You can read the full description of our data from a [3505doc.txt](3505doc.txt) -file that
 contains the description for each attribute.
 
 The first five rows of the data looks like following:
