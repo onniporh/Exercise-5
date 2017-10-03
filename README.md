@@ -17,7 +17,8 @@ The answers to the questions in this week's exercise should be given by modifyin
 
 For the Exercise 5 we will use NOAA weather data obtained from [here](https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND)
 (file format was converted to CSV for convenience). You should [download the datafile](6153237444115dat.csv) into your own computer to do the
-data analysis on it (from the following page --> right click **Download** -button --> Save Link As ..).
+data analysis on it:
+ - (from the following page --> right click **Download** -button --> Save Link As ..).
 
 You can read the full description of our data from a [3505doc.txt](3505doc.txt) -file that
 contains the description for each attribute.
