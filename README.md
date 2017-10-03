@@ -11,6 +11,7 @@ The answers to the questions in this week's exercise should be given by modifyin
  - **Exercise 5 is due by the start of lecture on 11.10.**
  - Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L5/exercise-5-hints.html) if you're having trouble.
  - Scores on this exercise are out of 20 points.
+ - There are altogether 4 problems that you should solve. The fifth problem is optional for more advanced students (does not affect grading)
 
 ## Data
 
