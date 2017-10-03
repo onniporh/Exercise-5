@@ -31,7 +31,7 @@ USAF,WBAN,YR--MODAHRMN,DIR,SPD,GUS,CLG,SKC,L,M,H,VSB,MW,MW,MW,MW,AW,AW,AW,AW,W,T
 028450,99999,201705010100,188,12,16,***,***,*,*,*,3.2,**,**,**,**,77,**,**,**,*,31,30,1009.1,*****,984.0,***,***,*****,*****,*****,*****,35
 ```
 
-**NOTICE**: the data includes \* characters that represent NoData values.
+**NOTICE**: the data includes \* -characters that represent NoData values.
 
 The most important attributes for this exercise are:
 
@@ -113,7 +113,7 @@ Using the data from Problem 3 in `kumpula` and `rovaniemi` DataFrames answer to 
 **Part 2**
 
 Part 1 considers data from quite long period of time (May-Aug), hence the differences might not be so clear.
-Let's find out what were the mean temperatures during June in Kumpula and Rovaniemi:
+Let's find out what were the mean temperatures in May and June in Kumpula and Rovaniemi:
 
 - Select from `rovaniemi` and `kumpula` DataFrames such rows from the DataFrames where ``YR--MODAHRMN`` values are from May 2017 (see hints for help)
 and assign them into variables `rovaniemi_may` and `kumpula_may`
@@ -125,7 +125,7 @@ You can add your codes into a `data_exploration.py` file.
 - Upload the script to your GitHub repository for Exercise-5
 - Remember to comment well your code!
 
-Interpreting the results after the data analysis is one of the most important steps in a process called knowledge discovery.
+Interpreting the results after the data analysis is one of the most important steps in a process called [knowledge discovery](http://researcher.ibm.com/researcher/view_group.php?id=144).
 Hence, use the information above to discuss shortly about following questions here (answer to this .md file)
 (justify your answers with the data analysis results):
 
