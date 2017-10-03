@@ -14,7 +14,7 @@ The answers to the questions in this week's exercise should be given by modifyin
 
 ## Data
 
-For the Exercise 5 we will use NOAA weather data obtained from https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND
+For the Exercise 5 we will use NOAA weather data obtained from [here](https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND)
 (file format was converted to CSV for convenience). You should download the datafile into your own computer to do the
 data analysis on it.
 
