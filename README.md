@@ -59,7 +59,7 @@ and conduct following tasks / answer to following questions:
 - What are the datatypes of the columns?
 - What is the mean Fahrenheit temperature in the data? (`TEMP` column)
 - What is the standard deviation of the Maximum temperature? (`MAX` column)
-- How many unique stations exists in the data?
+- How many unique stations exists in the data? (`USAF` column)
 
 You should write your codes into a `data_exploration.py` file and print the answers for the questions above
 inside the script.
