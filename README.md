@@ -8,7 +8,7 @@ and to explore how their summer temperatures have differed in 2017.
 After making your changes, you will need to upload your files to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the document in places where asked.
 
-If you are uncertain about **the style of your code writing**, take a look at the **[PEP 8 - Style guide for Python code](https://www.python.org/dev/peps/pep-0008/)** .  
+If you are uncertain about **the style of your code writing**, take a look at the **[PEP 8 - Style guide for Python code](https://www.python.org/dev/peps/pep-0008/)**.  
 
  - **Exercise 5 is due by the start of lecture on 11.10.**
  - Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L5/exercise-5-hints.html) if you're having trouble.
