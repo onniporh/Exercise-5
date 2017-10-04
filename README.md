@@ -8,6 +8,8 @@ and to explore how their summer temperatures have differed in 2017.
 After making your changes, you will need to upload your files to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the document in places where asked.
 
+If you are uncertain about **the style of your code writing**, take a look at the **[PEP 8 - Style guide for Python code](https://www.python.org/dev/peps/pep-0008/)** .  
+
  - **Exercise 5 is due by the start of lecture on 11.10.**
  - Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L5/exercise-5-hints.html) if you're having trouble.
  - Scores on this exercise are out of 20 points.
@@ -65,7 +67,7 @@ You should write your codes into a `data_exploration.py` file and print the answ
 inside the script.
 
 - Upload the script to your GitHub repository for Exercise 5
-- Remember to comment well your code!
+- Remember to comment well your code! (add docstring, and comments explaining what your code does)
 
 ## Problem 2 - Data manipulation (5 points)
 
@@ -74,15 +76,15 @@ you need to convert the temperatures into Celsius.
 
  - Select from the `data` columns `USAF, YR--MODAHRMN, TEMP, MAX, MIN` and assign them into a new variable called `selected`
  - Remove all rows from `selected` that has NoData in column `TEMP` using `dropna()` -function
- - Convert the Fahrenheit temperatures from `TEMP` column into a new column `Celsius` using the conversion formula:
+ - Convert the Fahrenheit temperatures from `TEMP` into a new column `Celsius` using the conversion formula:
    - ![](img/Fahrenheit_to_Celsius_formula.PNG)
- - Round the values in `Celsius` to have 0 decimals
- - Convert the `Celsius` values into integers
+ - Round the values in `Celsius` to have 0 decimals (**don't** create a new column --> update the current one)
+ - Convert the `Celsius` values into integers (**don't** create a new column --> update the current one)
 
 You can add your codes into a `data_exploration.py` file.
 
 - Upload the script to your GitHub repository for Exercise-5
-- Remember to comment well your code!
+- Remember to comment well your code! (add docstring, and comments explaining what your code does)
 
 ## Problem 3 - Data selection (5 points)
 
@@ -99,7 +101,7 @@ different stations.
 You can add your codes into a `data_exploration.py` file.
 
 - Upload the script to your GitHub repository for Exercise-5
-- Remember to comment well your code!
+- Remember to comment well your code! (add docstring, and comments explaining what your code does)
 
 ## Problem 4 - Data analysis (5 points)
 
@@ -125,7 +127,7 @@ and assign them into variables `rovaniemi_may` and `kumpula_may`
 You can add your codes into a `data_exploration.py` file.
 
 - Upload the script to your GitHub repository for Exercise-5
-- Remember to comment well your code!
+- Remember to comment well your code! (add docstring, and comments explaining what your code does)
 
 Interpreting the results after the data analysis is one of the most important steps in a process called [knowledge discovery](http://researcher.ibm.com/researcher/view_group.php?id=144).
 Hence, use the information above to discuss shortly about following questions (justify your answers with the data analysis results):
@@ -152,6 +154,6 @@ about solving this issue. If you think you can handle this but don't know how to
 Write your codes into a `data_aggregation.py` file.
 
 - Upload the script to your GitHub repository for Exercise-5
-- Remember to comment well your code!
+- Remember to comment well your code! (add docstring, and comments explaining what your code does)
 
 
