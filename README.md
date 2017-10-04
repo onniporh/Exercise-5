@@ -88,14 +88,17 @@ You can add your codes into a `data_exploration.py` file.
 
 ## Problem 3 - Data selection (5 points)
 
-In this problem you should select specific columns from the data and divide the data into separate subsets for
-different stations.
+In this problem you should divide the data into separate subsets for different stations and save those DataFrames into disk.
 
 - Divide the selection into two separate datasets:
   - Select all rows from `selected` DataFrame into variable called `kumpula` where the `USAF` code is `29980`
   - Select all rows from `selected` DataFrame into variable called `rovaniemi` where the `USAF` code is `28450`
-- Save `kumpula` DataFrame into `Kumpula_temps_May_Aug_2017.csv` file (CSV format) (separated with `,`)
-- Save `rovaniemi` DataFrame into `Rovaniemi_temps_May_Aug_2017.csv` file (CSV format) (separated with `,`)
+- Save `kumpula` DataFrame into `Kumpula_temps_May_Aug_2017.csv` file (CSV format) 
+   - separate the columns with `,`
+   - use only 2 decimals in the floating point numbers
+- Save `rovaniemi` DataFrame into `Rovaniemi_temps_May_Aug_2017.csv` file (CSV format) 
+   - separate the columns with `,`
+   - use only 2 decimals in the floating point numbers
 - Upload your csv files into your GitHub repository for Exercise 5
 
 You can add your codes into a `data_exploration.py` file.
