@@ -98,6 +98,7 @@ In this problem you should divide the data into separate subsets for different s
    - use only 2 decimals in the floating point numbers
 - Save `rovaniemi` DataFrame into `Rovaniemi_temps_May_Aug_2017.csv` file (CSV format) 
    - separate the columns with `,`
+   
    - use only 2 decimals in the floating point numbers
 - Upload your csv files into your GitHub repository for Exercise 5
 
@@ -138,7 +139,53 @@ Hence, use the information above to discuss shortly about following questions (j
 - Does there seem to be large difference in temperatures between the months?
 - Is Rovaniemi much colder place than Kumpula?
 
-***Write your answers below here:***
+## Answers
+
+**Problem 1**
+
+- There are 11690 rows in the dataset.
+- Mean temperature in `TEMP` column is 52.24797 degrees of fahrenheit.
+- Minimum temperature is 19.0 degrees of Fahrenheit.
+- Maximum temperature is 77.0 degrees of Fahrenheit.
+- There are two unique stations in the data.
+- Names and data types of the columns are:
+
+```
+USAF              int64
+WBAN              int64
+YR--MODAHRMN      int64
+DIR             float64
+SPD             float64
+GUS             float64
+CLG             float64
+SKC              object
+L               float64
+M               float64
+H               float64
+VSB             float64
+MW              float64
+MW.1            float64
+MW.2            float64
+MW.3            float64
+AW              float64
+AW.1            float64
+AW.2            float64
+AW.3            float64
+W               float64
+TEMP            float64
+DEWP            float64
+SLP             float64
+ALT             float64
+STP             float64
+MAX             float64
+MIN             float64
+PCP01           float64
+PCP06           float64
+PCP24           float64
+PCPXX           float64
+SD              float64
+```
+
 
 ## Problem 5 (optional) - Parse daily temperatures
 
